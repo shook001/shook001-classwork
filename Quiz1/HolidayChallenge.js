@@ -13,4 +13,4 @@ var answer = first_half + second_half
 
 
 
-console.log("I will raise $" + answer " for charity this year!");
+console.log("I will raise $" + answer + " for charity this year!");
