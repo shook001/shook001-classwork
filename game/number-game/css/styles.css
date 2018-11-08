@@ -1,3 +1,4 @@
+/*
 header {
     display: flex;
     justify-content: space-evenly;
@@ -25,4 +26,49 @@ header {
     display: inline-block;
     text-align: center;
     background-color: red;
-} 
+}
+*/
+
+header {
+    display: flex !important;
+    justify-content: space-evenly;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+  }
+
+.correct-dot{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    background-color: green;
+}
+
+.incorrect-dot{    
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    background-color: red;
+}
+
+#home{
+    height: 24px;
+}
+
+#gameBar{
+    width: 200px;
+}
+
+.jumbotron{
+    height:100vh;
+}
